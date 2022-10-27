@@ -3,6 +3,6 @@
     $preciovender = $vproducto+($vproducto*0.15);
 
     if($vproducto){
-        echo"Lo puede vender en: ". $preciovender;
+        echo"Lo puede vender en: ". $preciovender." y le gana el 15%";
     }
 ?>
