@@ -6,9 +6,9 @@
 
 
     if($calificaionf<7){
-        echo "Aprendiz: ".$nombreE. ",".$calificaionf ." " ."Desaprobado";
+        echo "Aprendiz: ".$nombreE. $calificaionf .",  Desaprobado";
     }else{
-        echo "Aprendiz: ".$nombreE. ",". $calificaionf. " "."Aprobado";
+        echo "Aprendiz: ".$nombreE. $calificaionf .",  Aprobado";
     }
 
 

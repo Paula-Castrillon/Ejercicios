@@ -5,7 +5,7 @@
 
     $multi = $velocidad * $tiempo;
 
-    echo  "La distancia es"." "."="." ".$multi;
+    echo  "La distancia es: ".$multi. " metros";
 
 
 

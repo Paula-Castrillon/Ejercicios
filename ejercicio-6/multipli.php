@@ -10,5 +10,5 @@
 
     $suma = ($Vvolantes + $Vposters + $Vtdpresen);
 
-    echo $Vvolantes."," ." ". $Vposters.","  ." ". $Vtdpresen."," ." ". "El total a pagar es:"." ". $suma;
+    echo "Valor volantes: ".$Vvolantes."," ."Valor posters:  ". $Vposters.","  ."Valor tarjetas: ". $Vtdpresen."," ." ". "El total a pagar es:"." ". $suma;
 ?>

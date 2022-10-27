@@ -5,16 +5,16 @@
     
     if($sexo=="Masculino"){
         if($Edad>=63){
-            echo "se se puede jubilar";
+            echo "Si se puede jubilar";
         }else{
-            echo "no jubilado";
+            echo "No se puede jubilar";
         }
     }else{
         if($sexo=="Femenino"){
             if($Edad>54){
-                echo "se se puede jubilar";
+                echo "Si se puede jubilar";
             }else{
-                echo "no jubilado";
+                echo "No se puede jubilar";
             }
         }
     }

@@ -14,8 +14,9 @@
     
     if ($suma >= 4.0) {
 
-echo "su promedio es de: ".$suma." po lo tanto apruebas ".$Asignatura;    
-}else{
-    echo "su promedio es de: ".$suma." po lo tanto NO apruebas ".$Asignatura;       }
+    echo "Asignatura: ".$Asignatura." ". $suma." Aprobado" ;    
+    }else{
+        echo "Asignatura: ".$Asignatura. " ".$suma." Desaprobado" ;    
+    }
 
     ?>
